@@ -1,0 +1,17 @@
+Question a.
+			00000000004004b4 T _Z7averagePdRd
+			00000000004004e2 T _Z7averageif
+		answer: Z7
+
+Question b.
+	output:	18
+			48
+			48
+			88
+	reason: a character represent 1 bytes in memory
+			a integer represent 4 bytes in memory
+			a float represent 4 bytes in memory
+			a double type represent 8 bytes in memory
+			However,The size of a pointer and the size of what it points to are not related. An analogy is to consider them like postal addresses. The size of 
+			the address of a house has no relationship to the size of the house. 
+			The size of pointer represents the size of space. And the space must be the same,no matter what type is the pointer.   
